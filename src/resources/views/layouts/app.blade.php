@@ -13,8 +13,8 @@
   <header>
     <h1>お問い合わせフォーム</h1>
     <nav>
-      <a href="/">トップ</a> |
-      <a href="/contact">お問い合わせ</a>
+      <a href="{{ route('index') }}">トップ</a> |
+      <a href="{{ route('contact') }}">お問い合わせ</a>
     </nav>
     <hr>
   </header>
